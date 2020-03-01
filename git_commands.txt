@@ -1,0 +1,19 @@
+
+git reset HEAD file_name  - unstage file_name
+git checkout -- file_name - discard changes
+
+git tag mytag
+git tag -a v1.0 - m "Comment"
+git show tag_name - show exact tag
+
+git pull origin integration/master  - pull from
+
+git reset  --soft --mixed --hard "commit"  (reflog)
+git push -u origin "your branch" --tag - push changes and create the same branch
+
+//ssh auth:
+mkdir .ssh/
+ssh-keygen -t rsa -C "email"
+
+git remote set-url origin git@""  - update name of remote repository
+#test
